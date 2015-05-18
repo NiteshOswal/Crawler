@@ -31,11 +31,9 @@ npm install
     node console.js http://niteshoswal.me -d 1 > out.txt
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-     
-
-    Now that I think about it, I could've actually allowed helpers.log to write
-    to a log file instead of just console.log (next version?, maybe bump it up a
-    little bit)
+    >   Now that I think about it, I could've actually appended messages passed
+    >   to helpers.log to a log file instead of just console.log (next version?,
+    >   maybe bump it up a little bit, very soon)
 
 2.  Enable --persist, save the URLs we crawled,
 
@@ -44,17 +42,17 @@ npm install
 
     `database: {`
 
-    `	host: "localhost",`
+    `host: "localhost",`
 
-    `	user: "user",`
+    `user: "user",`
 
-    `	password: "nomnom",`
+    `password: "nomnom",`
 
-    `	database: "something"`
+    `database: "something"`
 
     `}`
 
-    And!
+    And, make sure they're proper `mysql` database connection settings.
 
     Save `config.js` (Very carefully, yes, there's some sarcasm there)
 
