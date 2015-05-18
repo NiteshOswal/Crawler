@@ -1,6 +1,7 @@
-Console Init: url: http://niteshoswal.me depth: 1
+{ _: [ 'http://niteshoswal.me' ], d: 1 }
+Console Init: url: http://niteshoswal.me depth: 1 persist: undefined
 Inital Queue : 
-{ queue: {}, baseUrl: 'http://niteshoswal.me' }
+{ queue: {}, baseUrl: 'http://niteshoswal.me', persist: false }
 Crawler Init: 
 httpized url: 
 { protocol: 'http:',
@@ -23,7 +24,6 @@ Helpers: Requesting:
   method: 'GET',
   path: '/robots.txt' }
 Protocol: http:
-Crawler: Dumping URLs to file 	 for URL:http://niteshoswal.me
 Robots: fetched a copy of robots.txt buffer
 Robots: robots.txt parsed 
 Object - 
