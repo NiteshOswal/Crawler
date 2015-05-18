@@ -5,7 +5,7 @@ A demo crawler app for review, or maybe something even more exciting for the
 future! it even respects robots.txt for the root URL!
 
 A really clean init procedure, can help create multiple crawlers on different
-threads. just a simple `new Crawler(url, depth, persist)`
+threads. just a simple `new Crawler(url, depth, persist)`call and it's started.
 
 `Default: persist = false;`
 
@@ -73,4 +73,5 @@ To disable those console.log's navigate to "`lib/helpers.js`" and set
 
  
 
->   I tried..
+>   Even though I might get just one shot at this, please let me know if you
+>   find any bugs!

@@ -28,8 +28,7 @@ Robots: fetched a copy of robots.txt buffer
 Robots: robots.txt parsed 
 Object - 
 [ { name: '*', disallow: [ '/wp-admin/' ], allow: [] } ]
-Crawler: Let the fetching begin 
-Depth: 1
+Crawler: Depth: 1
 Queue: 
 [ 'http://niteshoswal.me/' ]
 Crawler: Crawling [object Object]
@@ -62,8 +61,7 @@ Helpers: Requesting:
   method: 'GET',
   path: '/' }
 Protocol: http:
-Crawler: Let the fetching begin 
-Depth: 0
+Crawler: Depth: 0
 Queue: 
 [ 'http://niteshoswal.me/',
   '[object Object]',
