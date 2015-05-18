@@ -73,5 +73,4 @@ To disable those console.log's navigate to "`lib/helpers.js`" and set
 
  
 
->   Even though I might get just one shot at this, please let me know if you
->   find any bugs!
+>   Please let me know if you find any bugs!
