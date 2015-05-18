@@ -1,0 +1,83 @@
+Console Init: url: http://niteshoswal.me depth: 1
+Inital Queue : 
+{ queue: {}, baseUrl: 'http://niteshoswal.me' }
+Crawler Init: 
+httpized url: 
+{ protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: 'niteshoswal.me',
+  port: null,
+  hostname: 'niteshoswal.me',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'http://niteshoswal.me/' }
+ depth: 1
+Robots: fetching robots.txt
+Helpers: Requesting: 
+{ hostname: 'niteshoswal.me',
+  port: null,
+  method: 'GET',
+  path: '/robots.txt' }
+Protocol: http:
+Crawler: Dumping URLs to file 	 for URL:http://niteshoswal.me
+Robots: fetched a copy of robots.txt buffer
+Robots: robots.txt parsed 
+Object - 
+[ { name: '*', disallow: [ '/wp-admin/' ], allow: [] } ]
+Crawler: Let the fetching begin 
+Depth: 1
+Queue: 
+[ 'http://niteshoswal.me/' ]
+Crawler: Crawling [object Object]
+{ protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: 'niteshoswal.me',
+  port: null,
+  hostname: 'niteshoswal.me',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'http://niteshoswal.me/' }
+Robots: Can We Fetch : http://niteshoswal.me/
+Robots: Test Bots :
+[ '*', 'projectcrawlerbot' ]
+Botname : projectcrawlerbot
+Robots: Bot: projectcrawlerbot Find Bot Status: 
+false
+Botname : *
+Robots: Bot: * Find Bot Status: 
+{ name: '*', disallow: [ '/wp-admin/' ], allow: [] }
+Robots: Test - disallowed for * Result: true
+Robots: yes we can fetch : http://niteshoswal.me/
+Helpers: Requesting: 
+{ hostname: 'niteshoswal.me',
+  port: null,
+  method: 'GET',
+  path: '/' }
+Protocol: http:
+Crawler: Let the fetching begin 
+Depth: 0
+Queue: 
+[ 'http://niteshoswal.me/',
+  '[object Object]',
+  'http://niteshoswal.me/#content',
+  'http://www.niteshoswal.me/',
+  'http://www.niteshoswal.me/about-me/',
+  'https://www.elance.com/s/niteshoswal/?rid=3N67N',
+  'http://www.niteshoswal.me/tried-to-stick-to-it/',
+  'http://www.niteshoswal.me/facebook-down/',
+  'http://www.niteshoswal.me/hey-mum/',
+  'http://www.niteshoswal.me/2015/05/',
+  'http://www.niteshoswal.me/2015/01/',
+  'http://www.niteshoswal.me/tried-to-stick-to-it/#respond',
+  'http://www.niteshoswal.me/wp-content/uploads/2015/01/Screenshot-from-2015-01-27-115820.png',
+  'http://www.niteshoswal.me/facebook-down/#respond',
+  'http://www.niteshoswal.me/hey-mum/#respond',
+  'https://wordpress.org/' ]
