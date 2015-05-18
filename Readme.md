@@ -44,17 +44,19 @@ npm install
 
     `database: {`
 
-`	host: "localhost",`
+    `	host: "localhost",`
 
-`	user: "user",`
+    `	user: "user",`
 
-`	password: "nomnom",`
+    `	password: "nomnom",`
 
-`	database: "something"`
+    `	database: "something"`
 
     `}`
 
-    Save `config.js`
+    And!
+
+    Save `config.js` (Very carefully, yes, there's some sarcasm there)
 
     Import `crawler.sql to the database`
 
